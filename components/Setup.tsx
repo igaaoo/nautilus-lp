@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Badge } from "./Itens/Badge";
-import { MousePointerClick } from "lucide-react";
 
 export function Setup() {
   return (
@@ -10,21 +9,15 @@ export function Setup() {
       <div className=" w-full flex flex-col rounded  ">
         <div className="flex flex-col  md:grid md:grid-cols-2  gap-x-10 w-full ">
           <div className="flex flex-col justify-center md:-mt-12  gap-4">
-            <div className="bg-white backdrop-blur-md rounded-lg shadow-lg bg-opacity-20 p-4">
-              <p className="text-white text-xl font-semibold text-center">
-                2 Monitores
-                {/* <MousePointerClick className="inline ml-2" size={24} /> */}
-                {/* <Image src="/touch2.svg" width={24} height={24} alt="Mouse" className="inline ml-2 invert  rotate-180" /> */}
-              </p>
-              <div className="grid grid-cols-2 gap-2 mt-2">
-                <Badge colorBadge="white" title="Visão do Piloto" />
-                <Badge colorBadge="blue" title="Tela de Diagnóstico" />
-              </div>
-            </div>
+            <p className="text-white text-xl font-semibold text-center font-red-hat ">
+              2 Monitores
+              {/* <MousePointerClick className="inline ml-2" size={24} /> */}
+              {/* <Image src="/touch2.svg" width={24} height={24} alt="Mouse" className="inline ml-2 invert  rotate-180" /> */}
+            </p>
 
             <div className="bg-white backdrop-blur-md  rounded-lg shadow-lg bg-opacity-20 p-4">
               <p className="text-white">
-                Controle de câmeras e sensores
+                Visão do Piloto
               </p>
               <div className="grid grid-cols-2 gap-2 mt-2">
                 <Badge colorBadge="white" title="Bússola" />
@@ -36,7 +29,7 @@ export function Setup() {
 
             <div className="bg-white backdrop-blur-md rounded-lg shadow-lg bg-opacity-20 p-4">
               <p className="text-white">
-                Informações de sensores e alarmes
+                Tela de Diagnóstico
               </p>
               <div className=" grid grid-cols-3 gap-2 mt-2">
                 <Badge colorBadge="blue" title="Sonar" />

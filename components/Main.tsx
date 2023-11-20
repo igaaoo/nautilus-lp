@@ -5,7 +5,7 @@ export function Main() {
         <h2 className='text-white md:text-4xl 2xl:text-5xl  font-semibold italic text-2xl font-jost'>&quot;Mais completo simulador de ROV do Brasil&quot; <br /> <span className='text-xl font-red-hat'>-TECROV</span></h2>
         <p className='text-white font-red-hat lg:text-2xl'>
           Experiencie o que há de mais moderno em simulação submarina<br />
-          Com o Simulador Nautilus você se torna um real operador de ROV <br />
+          Com o Simulador Nautilus você se torna um real operador de ROV<br />
         </p>
         <div className='flex flex-col md:flex-row gap-2'>
           <button className='bg-white font-red-hat bg-opacity-40 shadow lg:w-44 px-4 lg:text-xl py-2 rounded text-white hover:bg-opacity-70'>

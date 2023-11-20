@@ -6,8 +6,8 @@ import { Navbar } from '@/components/Navbar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Nautilus Simulator',
-  description: 'Mais completo simulador de ROV do Brasil',
+  title: 'Simulador Nautilus',
+  description: 'Experiencie o que há de mais moderno em simulação submarina. Com o Simulador Nautilus você se torna um real operador de ROV!',
 };
 
 export default function RootLayout({
