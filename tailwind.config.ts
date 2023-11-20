@@ -18,7 +18,8 @@ const config: Config = {
       },
       fontFamily: {
         jost: ['Jost', 'sans-serif'],
-        'red-hat': ['Red Hat Text', 'sans-serif']
+        'red-hat': ['Red Hat Text', 'sans-serif'],
+        cabin: ['Cabin', 'sans-serif'],
       }
     },
   },

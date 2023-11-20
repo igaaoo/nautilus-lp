@@ -10,8 +10,10 @@ export default function Home() {
       <Main />
       <div className='h-8 bg-blue-900 backdrop-blur-lg z-10 blur-sm -mt-4 -mb-2 bg-opacity-30  '></div>
       <Setup />
-      <div className='h-8 bg-cyan-900 backdrop-blur-lg z-10 blur-sm -mt-4 -mb-2 bg-opacity-30  '></div>
+      <div className='h-8 bg-cyan-900 backdrop-blur-lg z-10 blur-md -mt-4 -mb-2 bg-opacity-30  '></div>
       <Controls />
+      <div className='h-8 bg-cyan-300 backdrop-blur-lg z-10 blur-sm -mt-4 -mb-2 bg-opacity-30  '></div>
+
 
     </main>
   );
