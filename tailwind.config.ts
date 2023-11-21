@@ -11,6 +11,7 @@ const config: Config = {
       backgroundImage: {
         "main-bg": "url('/main.png')",
         "setup-bg": "url('/setup.jpg')",
+        "missions-bg": "url('/missions.jpg')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',

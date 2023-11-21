@@ -8,7 +8,7 @@ export function Navbar() {
 
   return (
     <div className='p-2 fixed w-full z-50'>
-      <div className='px-8 flex  md:flex-row items-center justify-between p-2  shadow w-full bg-white rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20  '>
+      <div className='px-4 md:px-8 flex  md:flex-row items-center justify-between p-2  shadow w-full bg-white rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20  '>
         <div className='flex items-center gap-2'>
           <Image src="nautilusLogo.svg" width={35} height={35} alt='Nautilus Logo' className='invert' />
           <h1 className='font-extrabold text-2xl md:text-2xl text-white whitespace-nowrap flex gap-1 font-cabin'><span className='hidden md:flex font-cabin'>Simulador</span> Nautilus</h1>

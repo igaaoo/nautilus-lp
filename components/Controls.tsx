@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export function Controls() {
   return (
-    <div className="flex flex-col w-full items-center py-4 justify-center bg-gradient-to-t  from-cyan-200 to-[#497284] px-4 md:px-20  pb-24">
+    <div className="flex flex-col w-full items-center py-4 justify-center bg-gradient-to-t  from-[#7db6d4] to-[#497284] px-4 md:px-20  pb-24">
       <p className="text-4xl text-white  2xl:mb-20 md:mb-10 mb-8 mt-10  border-b-2 pb-2 font-cabin font-semibold bg-white-400  bg-opacity-30 px-8 py-1 rounded-lg shadow-lg w-full text-center">Controles</p>
 
       <div className="flex flex-col md:grid md:grid-cols-3 gap-10 md:gap-10 w-full justify-center items-center">
-        <div className="max-w-sm 2xl:max-w-md h-full bg-white bg-opacity-30 backdrop-blur-sm backdrop-filter rounded-lg shadow-lg">
+        <div className="md:max-w-sm w-full 2xl:max-w-md h-full bg-white bg-opacity-30 backdrop-blur-sm backdrop-filter rounded-lg shadow-lg">
           <Image src="/keyboard.png" width={700} height={500} className="object-contain w-full h-64 rounded-t-lg" alt="Joystick" />
           <div className="p-5">
 
@@ -23,7 +23,7 @@ export function Controls() {
           </div>
         </div>
 
-        <div className="max-w-sm 2xl:max-w-md h-full font-red-hat bg-white bg-opacity-30 backdrop-blur-sm backdrop-filter rounded-lg shadow-lg">
+        <div className="md:max-w-sm w-full 2xl:max-w-md h-full font-red-hat bg-white bg-opacity-30 backdrop-blur-sm backdrop-filter rounded-lg shadow-lg">
           <Image src="/joystickXbox.png" width={700} height={500} className="object-contain w-full h-64 rounded-t-lg" alt="Joystick" />
           <div className="p-5">
 
@@ -38,7 +38,7 @@ export function Controls() {
           </div>
         </div>
 
-        <div className="max-w-sm 2xl:max-w-md h-full bg-white bg-opacity-30 backdrop-blur-sm backdrop-filter rounded-lg shadow-lg">
+        <div className="md:max-w-sm w-full 2xl:max-w-md h-full bg-white bg-opacity-30 backdrop-blur-sm backdrop-filter rounded-lg shadow-lg">
           <Image src="/joystickPiloto.webp" width={700} height={500} className="object-contain w-full h-64 rounded-t-lg " alt="Joystick" />
           <div className="p-5">
 
