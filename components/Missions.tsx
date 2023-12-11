@@ -24,7 +24,7 @@ export function Missions() {
   };
 
   return (
-    <div className="flex flex-col w-full items-center py-4 justify-center bg-gradient-to-b  from-[#7db6d4] to-[#497284] px-4 md:px-20 bg-cover bg-bottom -mt-1  pb-24">
+    <div className="flex flex-col w-full items-center py-4 justify-center bg-missions-bg px-4 md:px-20 bg-cover bg-bottom -mt-1  pb-24">
       <div className='w-full flex flex-col-reverse md:grid md:grid-cols-3 gap-8 mt-10'>
 
 
@@ -33,8 +33,8 @@ export function Missions() {
           pagination={pagination}
           modules={[Pagination]}
           className="w-full flex justify-center items-start overflow-visible col-span-2">
-          <SwiperSlide className='flex w-full justify-center  '>
-            <div className="min-w-96 self-center 2xl:max-w-md h-full font-red-hat bg-white backdrop-blur-lg  rounded-lg shadow-lg bg-opacity-20 p-4">
+          <SwiperSlide className='flex w-full justify-center'>
+            <div className="min-w-full self-center 2xl:max-w-md h-full font-red-hat bg-white backdrop-blur-lg  rounded-lg shadow-lg bg-opacity-20 p-4">
               <Image src="/canos.jpeg" width={700} height={500} className="object-cover w-full h-96 rounded-lg" alt="Joystick" />
               <div className="p-5">
 
@@ -91,9 +91,9 @@ export function Missions() {
         </Swiper>
 
         <div className='flex flex-col h-full w-full justify-center'>
-          <h5 className="text-4xl  text-white  mb-4   border-b-2 pb-2 font-cabin font-semibold   bg-opacity-30 px-8 py-1 rounded-lg shadow-lg w-full text-center">Missões</h5>
+          <h5 className="text-4xl  text-cyan-900  mb-4   border-b-2 pb-2 font-cabin font-semibold   bg-opacity-30 px-8 py-1 rounded-lg shadow-lg w-full text-center">Missões</h5>
           <section className='bg-white bg-opacity-20 rounded-lg shadow-lg p-8  w-full'>
-            <p className='text-white font-red-hat text-xl 2xl:text-3xl   '>
+            <p className='text-cyan-900 font-red-hat text-xl 2xl:text-3xl'>
               Atualmente o simulador nautilus conta com 4 missões:
             </p>
             <div className='flex flex-col gap-2 mt-4'>
@@ -104,7 +104,6 @@ export function Missions() {
               <span className={`bg-cyan-900 font-red-hat  font-semibold bg-opacity-30 text-center p-2 backdrop-blur-md backdrop-filter text-white rounded`}>Estrutura Fixa</span>
 
               <span className={`bg-white font-red-hat  font-semibold bg-opacity-20 text-center p-2 backdrop-blur-md backdrop-filter text-white rounded`}>Treinamento Braço</span>
-
             </div>
           </section>
         </div>
