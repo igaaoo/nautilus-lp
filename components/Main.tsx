@@ -2,7 +2,7 @@ export function Main() {
   return (
     <div className='bg-main-bg h-[calc(100vh-1vh)]  bg-cover flex flex-col p-4 md:p-12 justify-center'>
       <div className='flex flex-col gap-4'>
-        <h2 className='text-white md:text-4xl 2xl:text-5xl  font-bold italic text-2xl font-red-hat'>&quot;Mais completo simulador de ROV do Brasil&quot; <br /> <span className='text-xl font-red-hat'>-TECROV</span></h2>
+        <h2 className='text-white md:text-4xl 2xl:text-5xl  font-bold italic text-2xl font-red-hat'>&quot;Mais completo simulador de ROV do Brasil&quot; <br /></h2>
         <p className='text-white font-red-hat lg:text-xl'>
           Experiencie o que há de mais moderno em simulação submarina<br />
           Com o Simulador Nautilus você se torna um real operador de ROV<br />
